@@ -9,15 +9,10 @@ The **Resume Upload Application** is a simple web-based tool that allows users t
 - User-friendly UI for easy interaction
 
 ## Technologies Used
-- **Frontend:** HTML, CSS, React.js
+- **Frontend:** HTML, CSS, JSP
 - **Backend:** Java Spring Boot
 
 ## Installation
-### Prerequisites
-Ensure you have the following installed on your system:
-- [Node.js](https://nodejs.org/)
-- Git
-
 ### Setup
 1. Clone this repository:
    ```sh
@@ -27,14 +22,7 @@ Ensure you have the following installed on your system:
    ```sh
    cd resume-upload
    ```
-3. Install dependencies:
-   ```sh
-   npm install   # If using Node.js backend
-   ```
-4. Start the server:
-   ```sh
-   npm start   # If using Node.js backend
-   ```
+3. Start application   
 
 ## Usage
 1. Open your browser and go to `http://localhost:8080/resume`
@@ -48,10 +36,4 @@ Ensure you have the following installed on your system:
 |--------|---------|-------------|
 | POST | `/upload` | Uploads a resume |
 
-
-## Future Enhancements
-- Implement resumable uploads for large files
-- Add authentication to restrict access
-- Integrate cloud storage (AWS S3, Firebase, etc.)
-- Improve UI with progress indicators and validation feedback
 
